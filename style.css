@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header , ul, li{
+  background-color: #333333;
+  height: 50px;
+  display: flex;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 20px 10px 20px;
+}
+.container {
+  background-color: #F1F1F1;
+  margin-bottom: 20px;
+}
+h1 {
+  padding: 50px 10px 30px 10px;
+}
+p {
+  margin: 0px 10px;
+}
+p{
+  column-count: 4;
+  column-fill: balance;
+  column-rule: 2px solid black;
+}
+br {
+  column-span: all;
+}
+.footer {
+  position: relative;
+  width: 1400px;
+  height: 70px;
+  padding-top: 10px;
+  background-color: #333333;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
